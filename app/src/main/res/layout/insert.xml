@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Code" />
+
+    <EditText
+        android:id="@+id/editTextIntitule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextCode"
+        android:layout_marginTop="8dp"
+        android:hint="Intitule" />
+
+    <EditText
+        android:id="@+id/editTextSpecialite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextIntitule"
+        android:layout_marginTop="8dp"
+        android:hint="Specialité" />
+
+    <EditText
+        android:id="@+id/editTextSociete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextSpecialite"
+        android:layout_marginTop="8dp"
+        android:hint="Société" />
+
+    <EditText
+        android:id="@+id/editTextNbPostes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextSociete"
+        android:layout_marginTop="8dp"
+        android:hint="Nb Postes" />
+
+    <EditText
+        android:id="@+id/editTextPays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNbPostes"
+        android:layout_marginTop="8dp"
+        android:hint="Pays" />
+
+    <Button
+        android:id="@+id/add"
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPays"
+        android:layout_marginTop="16dp"
+        android:text="Insert" />
+</RelativeLayout>
